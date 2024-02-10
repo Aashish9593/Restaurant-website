@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+
+    width: 100%;
+    height: 100vh;
+    background-image: url(Background.jpg);
+    background-size: cover;
+
+}
+
+.top {
+    color: white;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    height: 80px;
+    align-items: center;
+    padding: 0px 40px;
+}
+
+.logo {
+    font-size: 40px;
+    color: orange;
+}
+
+.logo span{
+    color: white;
+}
+
+.nav {
+    position: relative;
+    
+}
+
+a {
+    padding: 5px 25px;
+    font-size: 25px;
+    color: orange;
+    text-decoration: none;
+
+}
+a:hover{
+    color: white;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+
+.search {
+    font-size: 25px;
+}
+.search i {
+    padding: 5px 20px;
+    
+}
+
+.heading {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 65px;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+    
+    
+}
+
+.heading .left {
+    justify-content: left;
+    text-align: left;
+    
+}
+
+.heading h1 span{
+    color: orange;
+}
+
+.heading left{
+    text-align: left 10px;
+}
+ .socilMedia{
+    display: flex;
+    display: inline;
+    color: white;
+    font-size: 30px;
+    display: inline;
+    justify-content: space-between;
+    
+}
+
+button{
+    background-color: orange;
+    border: none;
+    border-radius: 0%;
+    color: white;
+
+}
+
+
